@@ -12,6 +12,7 @@ import (
 )
 
 func main() {
+	fmt.Println("just making a change")
 	edges := make(chan string)
 	unprocessed := make(chan string)
 	var root string
